@@ -18,13 +18,13 @@ const addClass = () => {
 const changeText = () => {
     if(title.classList.contains('resultUSD')){
         title.innerHTML = 'BRL para USD'
-        toggleButton.innerHTML = 'USD para BRL'
+        toggleButton.innerHTML = 'Mudar conversão: USD para BRL'
         abbreviation.innerHTML = 'R$'
         
         
     } else {
         title.innerHTML = 'USD para BRL'
-        toggleButton.innerHTML = 'BRL para USD'
+        toggleButton.innerHTML = 'Mudar conversão: BRL para USD'
         abbreviation.innerHTML = 'US$'
 
     }
